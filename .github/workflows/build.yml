@@ -44,7 +44,7 @@ jobs:
           cd InternBackend
           mvn -B -DskipTests clean install \
              org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-             -Dsonar.projectKey=eyaouni01_ETTABA \
+             -Dsonar.projectKey=eyaouni01_Ettaba_qualite \
              -Dsonar.organization=eyaouni01 \
              -Dsonar.host.url=https://sonarcloud.io \
              -Dsonar.login=${{ secrets.SONAR_TOKEN }}
